@@ -8,6 +8,18 @@
 html {
   font-size: 1.25em; /* 20px on most screens */
 }
+body {
+  font: 300 100%/1.5 "Open Sans", sans-serif; 
+}
+nav {
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  text-decoration: none;
+}
 img {
   width: 100%; /* responsive images */
 }
