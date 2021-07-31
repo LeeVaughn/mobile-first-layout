@@ -20,10 +20,25 @@ ul {
 li {
   text-decoration: none;
 }
+header {
+  padding-bottom: 2rem;
+}
 img {
   width: 100%; /* responsive images */
 }
-
+p {
+  text-align: center;
+  font-size: .77rem;
+}
+main {
+  margin: 0 -16px;
+  background-color: white;
+}
+h1 {
+  padding: 2rem 0;
+  text-align: center;
+  font-weight: bold;
+}
 
 /* Main Styles --------------------- */
 .name, .nav a {
@@ -31,16 +46,23 @@ img {
   padding: .25rem 1rem;
   margin: 1rem auto;
   text-align: center;
-  font-size: 1.5rem;
   font-weight: bold;
+}
+.name {
+  font-size: 1.4rem;
 }
 .nav a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.10rem;
+  font-size: 1rem;
   background-color: white;
   color: black;
 }
-
+header img {
+  padding: 1.5rem 2.2rem 1.2rem 2.2rem;
+}
+header p {
+  color: gray;
+}
 
 /* Media Queries ------------------- */
