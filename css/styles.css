@@ -5,63 +5,82 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-size: 1.25em; /* 20px on most screens */
 }
+
 body {
   font: 300 100%/1.5 "Open Sans", sans-serif;
 }
+
 nav, header, main, aside {
   width: 90%;
   margin: auto;
 }
+
 ul {
   list-style-type: none;
 }
+
 li {
   text-decoration: none;
 }
+
 header {
   padding-bottom: 2rem;
 }
+
 img {
   width: 100%; /* responsive images */
 }
+
 p {
   text-align: center;
   font-size: .77rem;
 }
+
 main {
-  /* margin: 0 -16px; */
+  padding: 2rem 0;
   background-color: white;
 }
+
 h1, h2 {
   text-align: center;
 }
+
 h1 {
   padding: 2rem 0;
   font-weight: bold;
 }
+
 h2 {
-  padding: 1rem 0;
+  padding: 1rem 0 .5rem 0;
   font-weight: 500;
+}
+
+section {
+  padding: 1rem 0;
 }
 
 /* Main Styles --------------------- */
 .wrapper {
   background-color:whitesmoke;
 }
+
 .name, .nav a {
   display: block;
   padding: .25rem 1rem;
   text-align: center;
   font-weight: bold;
 }
+
 .name {
   padding-top: 1rem;
   margin: 0 auto 1rem auto;
   font-size: 1.4rem;
 }
+
 .nav a {
   margin: 1rem auto;
   text-transform: uppercase;
@@ -70,9 +89,11 @@ h2 {
   background-color: white;
   color: black;
 }
+
 header img {
   padding: 1.5rem 2.2rem 1.2rem 2.2rem;
 }
+
 header p {
   color: gray;
 }
