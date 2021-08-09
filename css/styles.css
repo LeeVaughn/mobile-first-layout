@@ -23,7 +23,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+li, a {
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ main {
   background-color: white;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
 }
 
@@ -61,6 +61,29 @@ h2 {
 
 section {
   padding: 1rem 0;
+}
+
+h3 {
+  padding: 2.5rem 0 1.5rem 0;
+  font-weight: 550;
+}
+
+aside {
+  border-bottom: 2px solid lightgrey;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 550;
+}
+
+footer li {
+  padding: 1rem 0 1.7rem 0;
+}
+
+a {
+  color: black;
 }
 
 /* Main Styles --------------------- */
@@ -96,6 +119,16 @@ header img {
 
 header p {
   color: gray;
+}
+
+aside ul {
+  padding: 1rem 0 2rem 0;
+}
+
+aside li {
+  display: block;
+  padding: .25rem 0;
+  text-align: center;
 }
 
 /* Media Queries ------------------- */
