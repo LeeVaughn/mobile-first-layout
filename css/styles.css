@@ -31,7 +31,7 @@ header {
   padding-bottom: 2rem;
 }
 
-img {
+header img, section img {
   width: 100%; /* responsive images */
 }
 
@@ -133,8 +133,16 @@ aside li {
 
 /* Media Queries ------------------- */
 @media (min-width: 768px) {
-  .nav {
+  nav, header, main, aside {
+    width: 93%;
+    margin: auto;
+  }
+
+  .nav, header, main {
     display: flex;
+  }
+
+  .nav, main {
     flex-wrap: wrap;
   }
 
@@ -149,10 +157,42 @@ aside li {
   }
 
   .nav a {
+    font-size: .8rem;
     background-color: whitesmoke;
   }
 	
+  header {
+    flex-direction: row-reverse;
+  }
 
+  header img {
+    padding: 1.5rem 0 1.2rem .25rem;
+    width: 40%;
+  }
+
+  header p {
+    padding: 1.5rem .25rem 1.2rem 0;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  h1 {
+    width: 100%;
+    min-width: 100%;
+    font-size: .8rem;
+  }
+
+  section {
+    width: 50%;
+  }
+
+  section img {
+    padding: 0 .25rem 0 .25rem;
+  }
+
+  section p {
+    padding: 0 1.5rem 0 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
