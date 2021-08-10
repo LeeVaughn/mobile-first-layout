@@ -76,6 +76,12 @@ aside {
   border-bottom: 2px solid lightgrey;
 }
 
+span {
+  padding: 0 .5rem;
+  font-weight: bold;
+  color: dimgrey;
+}
+
 footer ul {
   display: flex;
   justify-content: space-between;
@@ -148,6 +154,10 @@ aside li {
     margin: auto;
   }
 
+  .main-nav .name {
+    margin: 0 auto 0 auto;
+}
+
   .nav, header, main {
     display: flex;
   }
@@ -201,7 +211,7 @@ aside li {
   }
 
   section p {
-    padding: 0 1.5rem 0 1.5rem;
+    padding: 0 1.9rem 0 1.9rem;
   }
 
   h3 {
