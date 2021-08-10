@@ -132,3 +132,29 @@ aside li {
 }
 
 /* Media Queries ------------------- */
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav .name {
+    padding-top: 2rem;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav a {
+    background-color: whitesmoke;
+  }
+	
+
+}
+
+@media (min-width: 1024px) {
+
+}
