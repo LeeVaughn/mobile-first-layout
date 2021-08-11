@@ -69,7 +69,7 @@ section {
 
 h3 {
   padding: 2.5rem 0 1.5rem 0;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 aside {
@@ -85,7 +85,7 @@ span {
 footer ul {
   display: flex;
   justify-content: space-between;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 footer li {
