@@ -204,7 +204,6 @@ aside li {
 
   section {
     flex-basis: 50%;
-    /* width: 50%; */
   }
 
   section img {
@@ -212,7 +211,7 @@ aside li {
   }
 
   section p {
-    padding: 0 1.9rem 0 1.9rem;
+    padding: 0 1.9rem;
   }
 
   h3 {
@@ -220,7 +219,7 @@ aside li {
   }
 
   aside p {
-    padding: 0 7.5rem 0 7.5rem;
+    padding: 0 7.5rem;
   }
 
   footer {
@@ -253,6 +252,10 @@ aside li {
 }
 
 @media (min-width: 1024px) {
+  body {
+    background-color: whitesmoke;
+  }
+
   .main-nav {
     padding-top: 1rem;
   }
@@ -268,5 +271,25 @@ aside li {
     padding: .25rem 1rem;
     width: fit-content;
     min-width: fit-content;
+  }
+
+  main {
+    padding: 2rem 1rem;
+  }
+
+  section {
+    flex-basis: 33%;
+  }
+
+  aside p {
+    padding: 0 13rem;
+  }
+
+  footer {
+    padding-bottom: 0;
+  }
+
+  footer li {
+    padding: 1rem 0;
   }
 }
