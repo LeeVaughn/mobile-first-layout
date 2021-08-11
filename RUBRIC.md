@@ -20,11 +20,11 @@
 - [x] A Google Font is being used for the text.
 
 <!-- Exceeds -->
-- [ ] At least TWO of the following additional styling enhancements have been added to the portfolio:
-  - [] A new background color or image for the navigation and/or main sections of the site.
+- [x] At least TWO of the following additional styling enhancements have been added to the portfolio:
+  - [x] A new background color or image for the navigation and/or main sections of the site.
   - [ ] The color of at least one piece of text has been changed.
   - [ ] One additional google font has been added, and is being used on the page.
-  - [ ]  Any additional styling for links has been added.
+  - [x]  Any additional styling for links has been added.
 
 ####[x] Navigation and sections
 - [x] The navigation menu items have working links to the different sections that use ID’s to link to relevant anchor tags.
@@ -32,7 +32,7 @@
 <!-- Exceeds -->
 - [x] The `<nav>` tag is being used for the navigation bar.
 
-- [ ] Additional section has been added to the page, such as a skills section, and a  working link to the new section has been added to the navigation bar using an ID to link to anchor tag.
+- [x] Additional section has been added to the page, such as a skills section, and a  working link to the new section has been added to the navigation bar using an ID to link to anchor tag.
 
 ####[x] Valid code
 - [x] HTML and CSS code passes validation and/or only includes errors that are on the list of exceptions.

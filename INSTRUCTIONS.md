@@ -30,12 +30,12 @@
 
 ####Before you submit your project for review, make sure you can check off all of the items on the [Student Project Submission Checklist](http://treehouse-techdegree.s3.amazonaws.com/Student-Project-Submission-Checklist.pdf). The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!
 
-####[ ] Add an additional section to the page, such as a skills section. Don’t forget to create a working link to your new section in the navigation menu.
+####[x] Add an additional section to the page, such as a skills section. Don’t forget to create a working link to your new section in the navigation menu.
 
 ####[ ] Add at least TWO additional items to further style and enhance the portfolio:
-  - [ ] A new background color for the navigation and/or main sections of the site.
+  - [x] A new background color for the navigation and/or main sections of the site.
   - [ ] Change the color of at least one piece of text.
   - [ ] Add one additional google font that is being used on the page.
-  - [ ] Any additional styling for links (ie, borders, hover states).
+  - [x] Any additional styling for links (ie, borders, hover states).
 
 ####[x]When creating your navigation bar, use the [HTML5 `<nav>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) for extra structure and semantic markup.
