@@ -31,6 +31,10 @@ a, aside h3 {
   text-transform: uppercase;
 }
 
+li a:hover {
+  font-size: 125%;
+}
+
 header {
   padding-bottom: 2rem;
 }
@@ -46,7 +50,7 @@ p {
 
 main {
   padding: 2rem 0;
-  background-color: white;
+  background-color: snow;
 }
 
 h1, h2, h3 {
@@ -72,7 +76,18 @@ h3 {
   font-weight: 500;
 }
 
-aside {
+#badges {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+#badges h2 {
+  padding: 1rem 0;
+  background-color: lightgreen;
+}
+
+.wrapper aside {
   border-bottom: 2px solid lightgrey;
 }
 
@@ -272,6 +287,10 @@ aside li {
     padding: .25rem 1rem;
     width: fit-content;
     min-width: fit-content;
+  }
+
+  .nav a {
+    padding: .55rem 1rem;
   }
 
   header {
