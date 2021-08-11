@@ -203,7 +203,8 @@ aside li {
   }
 
   section {
-    width: 50%;
+    flex-basis: 50%;
+    /* width: 50%; */
   }
 
   section img {
@@ -234,11 +235,11 @@ aside li {
     padding-right: 0;
   }
 
-  .name {
+  footer .name {
     margin-right: auto; 
   }
 
-  .name, .footer_768min {
+  footer .name, .footer_768min {
     font-size: .65rem;
   }
 
@@ -252,5 +253,20 @@ aside li {
 }
 
 @media (min-width: 1024px) {
+  .main-nav {
+    padding-top: 1rem;
+  }
 
+  .main-nav .name {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav .name {
+    display: flex;
+    margin: 1rem auto 1rem 0;
+    padding: .25rem 1rem;
+    width: fit-content;
+    min-width: fit-content;
+  }
 }
