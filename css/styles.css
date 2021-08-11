@@ -298,3 +298,10 @@ aside li {
     padding: 1rem 0;
   }
 }
+
+@media (min-width: 1224px) {
+  body {
+    width: 70%;
+    margin: auto;
+  }
+}
